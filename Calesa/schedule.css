@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #8e024f, #e2361d, #f77e1b);
+}
+/* TOP box wait no its all the box like all of it*/
+.wrapper {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1600px;
+  margin: auto;
+}
+/* this one is the TOP */
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+ }
+
+/* this one is the sch and the teach I think the box*/
+.schedule, .professors {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  flex: 1 1 400px;
+  
+}
+/* the all gradient box yeeeee*/
+:is(.description-box, .professors, .schedule):hover {
+ background:linear-gradient(to right, #3e2b6a,#ca567f); color: white;
+ transition: 1s;
+ transform: scale(1.03);
+
+}
+/* the space in the bottom? oh wait its */
+.schedule h1, .professors h1 {
+  text-align: center;
+  margin-bottom: 20px;
+ 
+}
+
+.schedule table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  background-color: white;
+}
+
+.schedule th, .schedule td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.schedule th {
+ background-color: rgb(156, 41, 41);
+   color: white; 
+}
+
+
+/*this one is my favorate*/ 
+.w{ color:rgb(54, 51, 60);}
+.STICKER  { background-color: #b9b7f2; color: #170d35;}
+.ccna     { background-color: #f9ebea; color: #943126; }
+.it233    { background-color: #e8f8f5; color: #117864; }
+.it213    { background-color: #fcf3cf; color: #b7950b; }
+.it253    { background-color: #f5eef8; color: #6c3483; }
+.it273    { background-color: #eaf2f8; color: #21618c; }
+.it293    { background-color: #fef9e7; color: #9a7d0a; }
+.pe212    { background-color: #f6ddcc; color: #af601a; }
+.mri33    { background-color: #fbeee6; color: #784212; }
+
+.professors ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.professors li {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.c1    { background-color: #f9ebea; color: #943126; }
+.c2    { background-color: #e8f8f5; color: #117864; }
+.c3    { background-color: #fcf3cf; color: #b7950b; }
+.c4    { background-color: #f5eef8; color: #6c3483; }
+.c5    { background-color: #eaf2f8; color: #21618c; }
+.c6    { background-color: #fef9e7; color: #9a7d0a; }
+.c7    { background-color: #f6ddcc; color: #af601a; }
+.c8    { background-color: #fbeee6; color: #784212; }
+/*the botoom */
+.bottom-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.description-box {
+ font-size: 14px;
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  flex: 1  300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.description-box h3 {
+  margin-top: 0;
+}
